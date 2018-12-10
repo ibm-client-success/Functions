@@ -104,7 +104,7 @@ Cloud-Functions      1.0.16
 
 - From your existing terminal, create a directory and name it **Functions**
 
-- Create a file ```index.js``` in your **Functions** folder and copy and paste the content of the ```index.js``` file to your newly creted ```index.js``` file from [here](https://github.com/ibm-client-success/Functions/tree/master/db2-migration/Files)  (make sure to complete the **host:**, **username:**, and **password:** section to reflect your enviroment):
+- Create a file ```index.js``` in your **Functions** folder and copy and paste the content of the ```index.js``` file to your newly created ```index.js``` file from [here](https://github.com/ibm-client-success/Functions/tree/master/db2-migration/Files)  (make sure to complete the **host:**, **username:**, and **password:** section to reflect your enviroment):
 
 - From the same directory install ```npm```
 
