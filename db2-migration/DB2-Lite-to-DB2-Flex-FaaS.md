@@ -75,13 +75,7 @@ You will be returned to the home directory. Type ```cd``` to exit the home direc
  
  <img width="439" alt="image" src="https://media.github.ibm.com/user/20538/files/456059c0-fbc8-11e8-843f-f299cdb92203">
  
-- Download the **db2migration.sh** script on your VM by using this curl command:
-
-```curl https://github.com/ibm-client-success/Functions/tree/master/db2-migration/db2migration.sh -o db2migration.sh```
-
-The output should look like this:
-
-<img width="1150" alt="image" src="https://media.github.ibm.com/user/20538/files/9fbf646e-f43f-11e8-84e5-5cc88fdc9f91">
+- In the ```/opt/ibm/db2/V11.1/instance``` root, create a **db2migration.sh** file on your VM and copy and paste the content of the **db2migration.sh** from [here](https://github.com/ibm-client-success/Functions/tree/master/db2-migration/Files) to your newly created **db2migration.sh** file.
 
 ### Step 7:
 
@@ -110,9 +104,7 @@ Cloud-Functions      1.0.16
 
 - From your existing terminal, create a directory and name it **Functions**
 
-- Download the ```index.js``` and save it into your **Functions** folder by using this curl command (make sure to complete the **host:**, **username:**, and **password:** section to reflect your enviroment):
-
-```curl https://github.com/ibm-client-success/Functions/blob/master/db2-migration/Files/index.js -o index.js```
+- Create a file ```index.js``` in your **Functions** folder and copy and paste the content of the ```index.js``` file to your newly creted ```index.js``` file from [here](https://github.com/ibm-client-success/Functions/tree/master/db2-migration/Files)  (make sure to complete the **host:**, **username:**, and **password:** section to reflect your enviroment):
 
 - From the same directory install ```npm```
 
