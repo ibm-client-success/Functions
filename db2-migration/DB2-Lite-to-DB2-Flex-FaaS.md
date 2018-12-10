@@ -77,7 +77,7 @@ You will be returned to the home directory. Type ```cd``` to exit the home direc
  
 - Download the **db2migration.sh** script on your VM by using this curl command:
 
-```curl ... TBD```
+```curl https://github.com/ibm-client-success/Functions/tree/master/db2-migration/db2migration.sh -o db2migration.sh```
 
 The output should look like this:
 
@@ -112,7 +112,7 @@ Cloud-Functions      1.0.16
 
 - Download the ```index.js``` and save it into your **Functions** folder by using this curl command (make sure to complete the **host:**, **username:**, and **password:** section to reflect your enviroment):
 
-```curl ... TBD```
+```curl https://github.com/ibm-client-success/Functions/tree/master/db2-migration/db2migration.sh -o index.js```
 
 - From the same directory install ```npm```
 
