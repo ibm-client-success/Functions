@@ -112,7 +112,7 @@ Cloud-Functions      1.0.16
 
 - Download the ```index.js``` and save it into your **Functions** folder by using this curl command (make sure to complete the **host:**, **username:**, and **password:** section to reflect your enviroment):
 
-```curl https://github.com/ibm-client-success/Functions/tree/master/db2-migration/db2migration.sh -o index.js```
+```curl https://github.com/ibm-client-success/Functions/blob/master/db2-migration/Files/index.js -o index.js```
 
 - From the same directory install ```npm```
 
